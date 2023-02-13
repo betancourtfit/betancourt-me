@@ -1,0 +1,15 @@
+.hero_row{
+    max-height: 50vh;
+}
+
+.hero_left_container{
+ 
+}
+.hero_right_container{
+    max-height: 50vh;
+}
+.hero_imagen{
+    width: auto; height: 100%; 
+    overflow:visible;
+    object-fit:scale-down;
+}
