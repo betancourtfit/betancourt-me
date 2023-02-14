@@ -1,24 +1,23 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <!-- Meta tags -->
-            <meta charset="utf-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-            <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <!--bootstrap-->
-            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-            
-            <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
-            <link rel="stylesheet" href="/bootstrap/css/bootstrap-reboot.min.css">
-        <!-- CSS personalizado-->
-            <link rel="stylesheet" href="/scss/estilos.css">
+  <head>
+      <!-- Meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!--bootstrap-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+        <link rel="stylesheet" href="/bootstrap/css/bootstrap-reboot.min.css">
+      <!-- CSS personalizado-->
+        <link rel="stylesheet" href="/scss/estilos.css">
         <title>Betancourt.me</title>
         <link rel="icon" type="image/x-icon" href="/multimedia/img/logo_b.png">
-    </head>
+  </head>
 
-    <body>
+  <body>
         <!--Barra de navegacion con breakpoint en middle y estilo oscuro-->
-        <nav class="navbar navbar-expand-md bg-dark" data-bs-theme="dark">
+      <nav class="navbar navbar-expand-md bg-dark" data-bs-theme="dark">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">
                 <img src="/multimedia/img/logo_b.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
@@ -44,62 +43,69 @@
                 </ul>   
               </div>
             </div>
-        </nav>
+      </nav>
         <!--HERO section-->
-        <section class="container-fluid bg-light px-2 pb-2">
-            <div class="row hero_row" >
-                <div class="col-8 d-flex hero_left_container align-items-center justify-content-center">
-                    <div class="row p-2">
-                        <h1 class="col text-dark"> Contenidos curados para emprendedores</h1>
-                        <div class="w-100"></div>
-                        <h2 class="col text-dark-emphasis fs-4">Suscribete hoy para ser el primero en recibir nuevos contenidos</h2>
-                        <form>
-                            <div class=" col-4 mb-3">
-                              <label for="exampleInputEmail1" class="form-label">Email</label>
-                              <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp">
-                            </div>
-                            <button type="submit" class="btn btn-dark">Suscribirme</button>
-                          </form>
-                    </div>
+      <section class="container-fluid bg-light px-2 pb-2 hero_container">
+        <div class="row hero_row" >
+          <div class="col-8 d-flex hero_row_left align-items-center justify-content-center">
+            <div class="row p-2">
+              <h1 class="col text-dark"> Contenidos curados para emprendedores</h1>
+              <div class="w-100"></div>
+              <h2 class="col text-dark-emphasis fs-4">Suscribete hoy para ser el primero en recibir nuevos contenidos</h2>
+              <form>
+                <div class=" col-4 mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp">
                 </div>
-                <div class="col-4 d-flex hero_right_container d-flex justify-content-center" >
-                    <img src="./Multimedia/img/section1.png" alt="robot" class="hero_imagen">
-                </div>
+                <button type="submit" class="btn btn-dark">Suscribirme</button>
+              </form>
             </div>
-        </section>
+          </div>
+          <div class="col-4 inner-container hero_row_right" >
+            <img src="./Multimedia/img/section1.png" alt="robot" class="hero_imagen">
+          </div>
+        </div>
+      </section>
          <!--FINANZAS section-->      
-         <section class="container-fluid bg-dark">
-          <div class="row">
-            <div class="col-12 p-2">
-              <h2 class="text-center text-light">Productividad y Finanzas</h2>
+      <section class="container-fluid bg-dark finanzas_section">
+        <div class="row finanzas_row">
+          <div class="w-100 finanzas_title_box">
+            <h2 class="finanzas_row_title text-center text-light ">Productividad y Finanzas</h2>
+          </div>
+          <div class="row finanzas_row_card-container row-cols-1 row_cols-sm-2 row-cols-md-3 justify-content-center justify-content-md-around">
+            <div class="col finanzas_box_card" >
+              <div class="card finanzas_card" >
+                  <img src="https://miro.medium.com/max/700/1*NWXkq3dwjLcuf8RKTCcuZQ.png" class="finanzas_card_image" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">4 formas de aprovechar mejor tus tarjetas de crédito</p>
+                  </div>
+              </div> 
             </div>
-            <div class="row d-flex justify-content-around">
-              <div class="card section_card finanzas_card" >
-                <img src="https://miro.medium.com/max/700/1*NWXkq3dwjLcuf8RKTCcuZQ.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text">4 formas de aprovechar mejor tus tarjetas de crédito</p>
-                </div>
-              </div>
-              <div class="card section_card finanzas_card" >
-                <img src="https://miro.medium.com/max/700/0*11Ze960uMGsYlWzL.jpg" class="card-img-top" alt="...">
+            <div class="col finanzas_box_card" >
+              <div class="card finanzas_card" >
+                <img src="https://miro.medium.com/max/700/0*11Ze960uMGsYlWzL.jpg" class="finanzas_card_image" alt="...">
                 <div class="card-body">
                   <p class="card-text">Ganándole la carrera a la inflación — Argentina 2019</p>
                 </div>
               </div>
-              <div class="card section_card finanzas_card" >
-                <img src="https://miro.medium.com/max/634/1*y5mBG-UvDS0w0t0TilgzrA.jpeg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text">Mi TOP 5 de extensiones de chrome de productividad</p>
+            </div>
+              <div class="col finanzas_box_card" >
+                <div class="card finanzas_card" >
+                  <img src="https://miro.medium.com/max/634/1*y5mBG-UvDS0w0t0TilgzrA.jpeg" class="finanzas_card_image" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">Mi TOP 5 de extensiones de chrome de productividad</p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-         </section>  
+        </div>
+      </section>  
           <!--Artículos para emprendedores section-->      
-          <section class="container-fluid bg-dark">
+      <section class="container-fluid bg-light">
             <div class="row">
               <div class="col-12 p-2">
-                <h2 class="text-center text-light">Artículos para emprendedores - MEDIUM</h2>
+                <h2 class="text-center text-dark">Artículos para emprendedores - MEDIUM</h2>
               </div>
               <div class="row d-flex justify-content-around">
                 <div class="card section_card finanzas_card" >
@@ -122,9 +128,9 @@
                 </div>
               </div>
             </div>
-           </section>  
+      </section>  
            <!--Videos para emprendedores section-->      
-           <div class="container-fluid">
+      <div class="container-fluid bg-dark">
             <div class="row align-items-center">
               <div class="col-12 p-2">
                 <h2 class="text-center text-light">Artículos para emprendedores - MEDIUM</h2>
@@ -140,8 +146,8 @@
                 </div>
               </div>
             </div>
-          </div>
+      </div>
           
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-    </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
 </html>

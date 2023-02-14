@@ -1,29 +1,26 @@
-.hero_row {
-  max-height: 70vh;
-}
-
-.hero_right_container {
+.hero_container .hero_row .hero_row_right {
+  overflow: auto;
   max-height: 50vh;
 }
-
-.hero_imagen {
+.hero_container .hero_row .hero_row_right .hero_imagen {
   width: auto;
   height: 100%;
   overflow: inherit;
-  -o-object-fit: contain;
-     object-fit: contain;
+  -o-object-fit: fill;
+     object-fit: fill;
 }
 
-.section_card {
-  width: 15rem;
+.finanzas_section .finanzas_row {
+  padding: 0px;
 }
-
-.section {
-  border: 0cap;
+.finanzas_section .finanzas_row .finanzas_row_card-container .finanzas_card {
+  width: 13rem;
+  min-width: 20vw;
 }
-
-.finanzas_card{
- max-height: 230px;
-}
-
-/*# sourceMappingURL=estilos.css.map */
+.finanzas_section .finanzas_row .finanzas_row_card-container .finanzas_card .finanzas_card_image {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=estilos.css.map */
