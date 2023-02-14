@@ -1,7 +1,6 @@
 .hero_container{
     .hero_row{
         .hero_row_left{
-              
         }
         .hero_row_right{
             overflow:auto;
@@ -17,8 +16,9 @@
 }
 
 .finanzas_section{
+    
     .finanzas_row{
-        padding:0px;
+        padding:0px !important;
         .finanzas_title_box{
             .finanzas_row_title{
             }
@@ -33,9 +33,7 @@
                         overflow: hidden;
                         object-fit: cover;
                     }
-                    .finanzas_row_card-text{
-
-                    }
+                    .finanzas_row_card-text{}
                 }
         }
     }

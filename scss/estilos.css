@@ -11,7 +11,7 @@
 }
 
 .finanzas_section .finanzas_row {
-  padding: 0px;
+  padding: 0px !important;
 }
 .finanzas_section .finanzas_row .finanzas_row_card-container .finanzas_card {
   width: 13rem;
