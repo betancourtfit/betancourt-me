@@ -1,7 +1,5 @@
 .hero_container{
     .hero_row{
-        .hero_row_left{
-        }
         .hero_row_right{
             overflow:auto;
             max-height: 50vh;
@@ -19,10 +17,6 @@
     
     .finanzas_row{
         padding:0px !important;
-        .finanzas_title_box{
-            .finanzas_row_title{
-            }
-        }
         .finanzas_row_card-container{
                 .finanzas_card{
                     width: 13rem;
@@ -33,11 +27,22 @@
                         overflow: hidden;
                         object-fit: cover;
                     }
-                    .finanzas_row_card-text{}
                 }
         }
     }
 }
 
-
+.sobremi_section_container{
+    .sobremi_foto{
+        object-fit:cover;
+        object-position: top;
+    }
+    .sobremi_boton_container{
+        .btn-light:hover{
+            background-color: black;
+            color: white;
+            -webkit-transform: scale(1.1);
+        }
+    }
+}
 

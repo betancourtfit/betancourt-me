@@ -23,4 +23,16 @@
   overflow: hidden;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.sobremi_section_container .sobremi_foto {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+.sobremi_section_container .sobremi_boton_container .btn-light:hover {
+  background-color: black;
+  color: white;
+  -webkit-transform: scale(1.1);
 }/*# sourceMappingURL=estilos.css.map */
