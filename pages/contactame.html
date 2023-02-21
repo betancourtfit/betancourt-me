@@ -14,3 +14,97 @@
         <title>Betancourt.me</title>
         <link rel="icon" type="image/x-icon" href="./multimedia/img/logo_b.png">
   </head>
+
+
+  <body>
+    <!--Barra de navegacion con breakpoint en middle y estilo oscuro-->
+    <nav class="navbar navbar-expand-md bg-dark" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="../multimedia/img/logo_b.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+          Betancourt.me
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#listanav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse nav justify-content-end align-items-center" id="listanav">
+          <ul class="navbar-nav nav">
+            <li class="nav-item">
+              <a class="nav-link"  href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./sobremi.html">Sobre mi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./Blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./contactame.html" aria-current="page">Contactame</a>
+            </li>
+          </ul>   
+        </div>
+      </div>
+    </nav>
+
+
+    <div class="content pt-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-10">
+            <div class="row justify-content-center">
+              <div class="col-md-6">
+                
+                <h3 class="heading mb-4">Entremos en contacto</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas debitis, fugit natus?</p>
+  
+                <p><img src="../multimedia/img/section1.png" alt="Image" class="img-fluid"></p>
+  
+  
+              </div>
+              <div class="col-md-6">
+                
+                <form class="mb-5" action="mailto:beta.juan.c@gmail.com"  method="post" id="contactForm" name="contactForm" enctype="text/plain">
+                  <div class="row">
+                    <div class="col-md-12 form-group">
+                      <input type="text" class="form-control" name="nombre" id="name" placeholder="Tu nombre">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12 form-group">
+                      <input type="text" class="form-control" name="email" id="email" placeholder="Email">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12 form-group">
+                      <input type="text" class="form-control" name="asunto" id="subject" placeholder="Asunto">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12 form-group">
+                      <textarea class="form-control" name="message" id="message" cols="30" rows="7" placeholder="Escribe tu mensaje"></textarea>
+                    </div>
+                  </div>  
+                  <div class="row">
+                    <div class="col-12">
+                      <input type="submit" value="Enviar" class="btn btn-primary rounded-0 py-2 px-4">
+                    <span class="submitting"></span>
+                    </div>
+                  </div>
+                </form>
+  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+    </div>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/main.js"></script>
+
+  </body>
