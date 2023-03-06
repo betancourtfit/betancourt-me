@@ -54,14 +54,17 @@
       <!-- ============================================================
       HERO SECTION
     ================================================================== -->
-      <!---Creo el contenedor fluid para que ocupe todo el width, cambio el stilo a light, añado padding y asigno una clase eprsonalizada-->
-      <section class="container-fluid bg-light px-2 pb-2 hero_container">
+      <!---Creo el contenedor fluid para que ocupe todo el width, cambio el stilo a light, añado padding y asigno una clase personalizada-->
+      <section class="container-fluid bg-light px-2 pb-0 hero_container">
+        <!--Creo una fila que contenga los dos contenedores y añado una clase personalizada-->
         <div class="row hero_row" >
-          <div class="col-8 d-flex hero_row_left align-items-center justify-content-center">
+          <!--Contenedor izquierdo que ocupa 8/12 columnas, activo flex y centro verticalemente-->
+          <div class="col-8 hero_row_left d-flex align-items-center">
+            <!--Creo una fila como sub-contenedor para poder crear un padding-->
             <div class="row p-2">
-              <h1 class="col text-dark"> Contenidos curados para emprendedores</h1>
-              <div class="w-100"></div>
-              <h2 class="col text-dark-emphasis fs-4">Suscribete hoy para ser el primero en recibir nuevos contenidos</h2>
+              <!--Primer y segundo titulo con display bloc para apilarlos-->
+              <h1 class="d-block text-dark text-md"> Contenidos curados para emprendedores</h1>
+              <h2 class="d-block text-dark-emphasis fs-4 text-sm">Suscribete hoy para ser el primero en recibir nuevos contenidos</h2>
               <form>
                 <div class=" col-4 mb-3">
                   <label for="exampleInputEmail1" class="form-label">Email</label>
@@ -71,33 +74,40 @@
               </form>
             </div>
           </div>
-          <div class="col-4 inner-container hero_row_right" >
+          <!--Contenedor derecho que ocupa 4/12 columnas, con clase personalizada-->
+          <div class="col-4 hero_row_right" >
             <img src="./multimedia/img/section1.png" alt="robot" class="hero_imagen">
           </div>
         </div>
       </section>
       <!-- ============================================================
-      FINANZAS section
-    ================================================================== -->   
-      <section class="container-fluid bg-dark finanzas_section p-4">
-        <div class=" finanzas_row row justify-content-around">
-          <div class="w-100 finanzas_title_box p-3">
+     PRODUCTIVIDAD Y FINANZAS SECTION
+    ================================================================== --> 
+    <!--Seccion con contenedor fluido para que se adapte, con estilo de backgtound oscuro, con un padding de 4 y una clase personalizada-->  
+      <section class=" finanzas_section container-fluid bg-dark p-4">
+        <!--Contenedor fila que contiene al titulo y las cards con una clase personalizada -->
+        <div class=" finanzas_row">
+          <!--Creo un sub-contenedor para el titulo con un padding y una clase personalizada -->
+          <div class="finanzas_title_box p-3">
+            <!--Titulo con estilo ajustado al background, centrado y una clas personalizada-->
             <h2 class="finanzas_row_title text-center text-light ">Productividad y Finanzas</h2>
           </div>
-          <div class="row finanzas_row_card-container w-100 row-cols-1 row_cols-sm-2 row-cols-md-3 justify-content-center justify-content-md-around">
-            <div class="card finanzas_box_card d-flex justify-content-center" >
+          <!--Creé el sub-contenedor para las cards que se alinee en una sola columna pero cuando supera el screen medium se divide en 3 columnas, tambien centra los elementos pero en screen medium usa space-around para que queden con la misma distancia entre cards  -->
+          <div class="row finanzas_row_card-container row-cols-1 row-cols-md-3 d-flex justify-content-center justify-content-md-around alig-content-around">
+            <!--Card 1 - Uso la clase card y una clase personalizada  -->
+            <div class="card finanzas_box_card" >
               <img class="card-img-top finanzas_card_image" src="https://miro.medium.com/max/700/1*NWXkq3dwjLcuf8RKTCcuZQ.png"  alt="...">
               <div class="card-body" >
                   <p class="card-text">4 formas de aprovechar mejor tus tarjetas de crédito</p>
                 </div>
               </div> 
-            <div class="card finanzas_box_card d-flex justify-content-center" >
+            <div class="card finanzas_box_card" >
                 <img class="card-img-top finanzas_card_image" src="https://miro.medium.com/max/700/0*11Ze960uMGsYlWzL.jpg"  alt="...">
                 <div class="card-body">
                   <p class="card-text">Ganándole la carrera a la inflación — Argentina 2019</p>
                 </div>
              </div>
-            <div class="card finanzas_box_card d-flex justify-content-center" >
+            <div class="card finanzas_box_card" >
               <img class="card-img-top finanzas_card_image" src="https://miro.medium.com/max/634/1*y5mBG-UvDS0w0t0TilgzrA.jpeg" alt="...">
               <div class="card-body">
                 <p class="card-text">Mi TOP 5 de extensiones de chrome de productividad</p>
