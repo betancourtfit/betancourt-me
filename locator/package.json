@@ -1,0 +1,23 @@
+{
+  "name": "locator",
+  "version": "1.0.0",
+  "description": "recolecta informacion personal para suscribir a un newsletter de mail",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "productividad",
+    "analisis",
+    "de",
+    "datos",
+    "emprender",
+    "emprendedores",
+    "emprendimiento",
+    "gestion",
+    "de",
+    "negocios"
+  ],
+  "author": "Juan Betancourt\\ <trxbetancourt@gmail.com\\> (https://betancourt.me)",
+  "license": "UNLICENSED"
+}
